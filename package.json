@@ -4,7 +4,8 @@
   "description": "Workshop on Abstract Syntax Trees",
   "main": "index",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "format": "prettier-standard examples/**/*.js",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -28,9 +29,17 @@
     "@babel/parser": "^7.8.4",
     "@babel/preset-env": "^7.8.4",
     "@babel/preset-react": "^7.8.3",
-    "prettyjson": "^1.2.1"
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "jest": "^25.1.0",
+    "prettier-standard": "^16.1.0"
   },
   "dependencies": {
-    "@babel/node": "^7.8.4"
+    "@babel/node": "^7.8.4",
+    "json-beautify": "^1.1.1"
   }
 }
