@@ -5,7 +5,8 @@
   "main": "index",
   "scripts": {
     "format": "prettier-standard examples/**/*.js",
-    "test": "jest"
+    "test": "jest",
+    "codemode:solution": "codemod --find-babel-config --plugin ./examples/codemod/solutionish/my-plugin.js examples/codemod/solutionish/input.js"
   },
   "repository": {
     "type": "git",
@@ -29,6 +30,8 @@
     "@babel/parser": "^7.8.4",
     "@babel/preset-env": "^7.8.4",
     "@babel/preset-react": "^7.8.3",
+    "@codemod/cli": "^2.1.14",
+    "babel-plugin-tester": "^8.0.1",
     "eslint": "^6.8.0",
     "eslint-config-standard": "^14.1.0",
     "eslint-plugin-import": "^2.20.1",

@@ -2,6 +2,7 @@ const { RuleTester } = require('eslint')
 const rule = require('./badname')
 
 const ruleTester = new RuleTester()
+
 ruleTester.run('no calling badName', rule, {
   valid: ['goodName()', 'someOtherName()', 'somethingElse.badName'],
   invalid: [invalid('badName()')]
