@@ -1,16 +1,10 @@
-export default function (babel) {
+module.exports = function (babel) {
   const { types: t } = babel
 
   return {
-    name: 'example plugin', // not required
+    name: 'change component name', // not required
     visitor: {
-      Identifier (path) {
-        path.node.name = path.node.name
-          .split('')
-          .reverse()
-          .join('')
-        console.log(t)
-      }
+      
     }
   }
 }
