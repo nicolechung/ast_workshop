@@ -3,8 +3,6 @@ module.exports = function (babel) {
 
   return {
     name: 'change component name', // not required
-    visitor: {
-      
-    }
+    visitor: {}
   }
 }

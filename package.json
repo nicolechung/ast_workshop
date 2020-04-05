@@ -4,7 +4,7 @@
   "description": "Workshop on Abstract Syntax Trees",
   "main": "index",
   "scripts": {
-    "format": "prettier-standard examples/**/*.js",
+    "format": "prettier-standard \"examples/**/*.js\"",
     "test": "jest",
     "codemode:solution": "codemod --find-babel-config --plugin ./examples/codemod/solutionish/my-plugin.js examples/codemod/solutionish/input.js"
   },
