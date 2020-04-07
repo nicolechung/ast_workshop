@@ -8,10 +8,7 @@ pluginTester({
   tests: {
     'changes this code': {
       fixture: path.join(__dirname, '__fixtures__/button.js'),
-      outputFixture: path.join(
-        __dirname,
-        '__fixtures__/button-changed.js'
-      )
+      outputFixture: path.join(__dirname, '__fixtures__/button-changed.js')
     }
   }
 })
