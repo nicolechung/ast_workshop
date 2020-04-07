@@ -7,10 +7,10 @@ pluginTester({
   babelOptions: require('../babel.config.js'),
   tests: {
     'changes this code': {
-      fixture: path.join(__dirname, '__fixtures__/basic-react/button.js'),
+      fixture: path.join(__dirname, '__fixtures__/button.js'),
       outputFixture: path.join(
         __dirname,
-        '__fixtures__/basic-react/button-changed.js'
+        '__fixtures__/button-changed.js'
       )
     }
   }
