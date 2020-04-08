@@ -6,7 +6,11 @@
   "scripts": {
     "format": "prettier-standard \"examples/**/*.js\"",
     "test": "jest",
-    "codemode:solution": "codemod --find-babel-config --plugin ./examples/codemod/solutionish/my-plugin.js examples/codemod/solutionish/input.js"
+    "clean": "rm -rf node_modules && cd examples/mdx && rm -rf node_modules"
+  },
+  "engines": {
+    "node": "10.16.3",
+    "npm": "6.9.0"
   },
   "repository": {
     "type": "git",
@@ -24,7 +28,9 @@
     "url": "https://github.com/nicolechung/ast_workshop/issues"
   },
   "jest": {
-    "testPathIgnorePatterns": ["/solutionish/"]
+    "testPathIgnorePatterns": [
+      "/solutionish/"
+    ]
   },
   "homepage": "https://github.com/nicolechung/ast_workshop#readme",
   "devDependencies": {
