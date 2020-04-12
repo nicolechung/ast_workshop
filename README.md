@@ -10,6 +10,14 @@ Run the install script:
 ./install.sh
 ```
 
+# :rocket: Cleaning
+
+```
+npm run clean
+```
+
+This should delete all `node_modules` and `cached` NextJS files.
+
 ## Parsing Examples
 
 Parsing a simple `console.log`:

@@ -6,7 +6,7 @@
   "scripts": {
     "format": "prettier-standard \"examples/**/*.js\"",
     "test": "jest",
-    "clean": "rm -rf node_modules && cd examples/mdx && rm -rf node_modules",
+    "clean": "rm -rf node_modules && cd examples/mdx && rm -rf node_modules && rm -rf ./.next/",
     "parse-console": "node examples/parsing/hello_world.js",
     "parse-jsx": "node examples/parsing/jsx.js"
   },
