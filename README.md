@@ -15,7 +15,7 @@ Run the install script:
 Parsing a simple `console.log`:
 
 ```
-npm run parse-example
+npm run parse-console
 ```
 
 Parsing a simple `jsx`:
