@@ -25,6 +25,16 @@ Parsing a simple `jsx`:
 npm run parse-jsx
 ```
 
+## Plugin examples
+
+Name change example:
+
+```
+npm test change-name
+```
+
+## A note about solutions files
+Solutions are **excluded** from tests (see `testPathIgnorePatterns` in package.json) and are meant as a reference only. 
 
 # MDAST
 

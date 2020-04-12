@@ -1,7 +1,10 @@
 const pluginTester = require('babel-plugin-tester').default
-const plugin = require('./basic-react')
+const plugin = require('./change-name')
 const path = require('path')
 
+/**
+ * Note: the require below only works A PATH ABOVE this folder!
+ */
 pluginTester({
   plugin,
   babelOptions: require('./babel.config.js'),
