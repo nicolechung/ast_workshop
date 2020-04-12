@@ -2,13 +2,29 @@
 
 Abstract Syntax trees and what you can do with them in Javascript
 
-# This repo is nowhere near complete! Do not peruse
+# Installation
 
-# Basic parse
+Run the install script:
 
 ```
-node examples/basic_parse.js
+./install.sh
 ```
+
+## Parsing Examples
+
+Parsing a simple `console.log`:
+
+```
+npm run parse-example
+```
+
+Parsing a simple `jsx`:
+
+
+```
+npm run parse-jsx
+```
+
 
 # MDAST
 
