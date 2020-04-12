@@ -5,8 +5,6 @@ module.exports = {
   },
   create (context) {
     const sourceCode = context.getSourceCode()
-  return {
-    
+    return {}
   }
-}
 }

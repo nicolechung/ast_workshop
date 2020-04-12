@@ -1,8 +1,8 @@
-# AST workshop
+# :wave: AST workshop
 
 Abstract Syntax trees and what you can do with them in Javascript
 
-# Installation
+# :rocket: Installation
 
 Run the install script:
 
@@ -35,7 +35,21 @@ npm test change-name
 
 Note: this test will fail unless you've put in the correct plugin code.
 
+## Eslint examples
 
+Bad function name example
+
+```
+npm test badname
+```
+
+Note: this test will fail unless you've put in the correct plugin code.
+
+```
+npm test whitespace
+```
+
+Note: this test will fail unless you've put in the correct plugin code.
 
 ## MDX Example
 
