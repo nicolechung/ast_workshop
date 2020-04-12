@@ -1,6 +1,6 @@
 module.exports = {
   meta: {
-    type: 'no calling badName'
+    type: 'suggestion'
   },
   create (context) {
     return {

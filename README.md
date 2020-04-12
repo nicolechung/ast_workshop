@@ -33,6 +33,10 @@ Name change example:
 npm test change-name
 ```
 
+Note: this test will fail unless you've put in the correct plugin code.
+
+
+
 ## MDX Example
 
 ```sh

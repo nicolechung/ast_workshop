@@ -1,6 +1,6 @@
 module.exports = {
   meta: {
-    type: '<Name your rule here>'
+    type: 'suggestion'
   },
   create (context) {
     return {
