@@ -33,10 +33,15 @@ Name change example:
 npm test change-name
 ```
 
-## A note about solutions files
-Solutions are **excluded** from tests (see `testPathIgnorePatterns` in package.json) and are meant as a reference only. 
+## MDX Example
 
-# MDAST
+```sh
+cd examples/mdx
+npm run dev
+```
+
+
+### MDAST
 
 Markdown Abstract Syntax Tree
 
@@ -46,7 +51,7 @@ https://github.com/syntax-tree/mdast
 `Remark` is the processor:
 https://github.com/remarkjs/remark
 
-# HAST
+### HAST
 
 Hypertext Abstract Syntax Tree format
 
@@ -56,7 +61,11 @@ https://github.com/syntax-tree/hast
 `Rehype` is the processor:
 https://github.com/rehypejs/rehype
 
-# Converting markdown to HTML
+### Converting markdown to HTML
 
 Plugin to transform:
 https://github.com/remarkjs/remark-rehype
+
+## A note about solutions files
+Solutions are **excluded** from tests (see `testPathIgnorePatterns` in package.json) and are meant as a reference only. 
+
