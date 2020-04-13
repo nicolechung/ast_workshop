@@ -11,6 +11,3 @@ cd $SCRIPTPATH
 echo 'installing plugins example'
 cd examples/plugin && npm install
 cd $SCRIPTPATH
-echo 'installing styles example'
-cd styling && npm install
-cd $SCRIPTPATH
