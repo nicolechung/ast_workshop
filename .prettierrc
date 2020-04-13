@@ -1,0 +1,11 @@
+{
+  "overrides": [
+    {
+      "files": "__fixtures__/**.js",
+      "options": {
+        "singleQuote": false,
+        "semi": false
+      }
+    }
+  ]
+}
