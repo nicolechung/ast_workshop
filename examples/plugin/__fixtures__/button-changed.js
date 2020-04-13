@@ -1,1 +1,1 @@
-const NeatButton = props => <button>{props.children}</button>
+const NeatButton = props => <button>{props.children}</button>;
