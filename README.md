@@ -43,6 +43,14 @@ npm test change-name
 
 Note: this test will fail unless you've put in the correct plugin code.
 
+Attribute change example:
+
+```
+npm test change-attribute
+```
+
+Note: this test will fail unless you've put in the correct plugin code.
+
 ## Eslint examples
 
 Bad function name example
