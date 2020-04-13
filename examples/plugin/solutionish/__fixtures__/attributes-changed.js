@@ -4,4 +4,4 @@
   <Flex justifyContent="center" alignContent="center">
     Flex
   </Flex>
-</>;
+</>
