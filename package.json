@@ -11,7 +11,7 @@
     "parse-jsx": "node examples/parsing/jsx.js"
   },
   "engines": {
-    "node": "10.16.3",
+    "node": "10.24.1",
     "npm": "8.3.0"
   },
   "repository": {
